@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #464f54;
+}
+
+.wrapper { 
+  margin-top: 50px;
+}
+
+/*Hader*/
+.header { 
+  width: 869px;
+  box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+  background-color: #181818;
+  position: relative;
+  left: 450px;
+  top: 150px;
+}
+
+.header__contents {
+  color: #767676;
+  font-family: "Proxima Nova";
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 109.03px;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  margin: 53px 0px 0px 63px;
+  padding-bottom: 50px;
+}
+
+.headr__title { 
+  color: #fefefe;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 94.03px;
+  margin: -65px 0px 0px 0px;
+}
+
+.hr-title{
+  color: #edeff2;
+  opacity: 0.71;
+}
+
+.header__hr { 
+  width: 804px;
+  height: 3px;
+  background-color: #ffffff;
+  opacity: 0.1;
+  margin: -10px 0px 0px 0px;
+}
+
+/*Logo*/
+.logo { 
+  width: 798px;
+  height: 76px;
+  box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+  background-color: #fbc02d;
+  position: relative;
+  left: 520px;
+  top: 150px;
+}
+
+.logo__logo { 
+  padding: 24px 0px 0px 42px;
+}
+
+/*Main*/
+.main { 
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.22);
+  background-color: #ffffff;
+  margin: 0 auto;
+
+}
+
+.row{
+  margin-left: 67px;
+  border-left: 2px solid  #e8eced;
+}
+
+.main__date { 
+  color: #b4b4b4;
+  font-family: "Proxima Nova";
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 6.72px;
+  padding-top: 202px;
+  padding-left: 58px;
+  padding-bottom: 47px;
+}
+
+.main__title { 
+  color: #2a2a2a;
+  font-family: "Futura PT - Heavy";
+  font-size: 78px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 73.52px;
+  text-transform: uppercase;
+  letter-spacing: 5.28px;
+  padding-left: 58px;
+  padding-bottom: 21px;
+  padding-right: 178px;
+}
+
+.main__question { 
+  color: #8f8f8f;
+  font-family: Georgia;
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: 62.44px;
+  padding-left: 58px;
+  padding-bottom: 55px;
+}
+
+.main__text { 
+  color: #000000;
+  font-family: Georgia;
+  font-size: 27px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 40.38px;
+  padding-left: 58px;
+  padding-right: 130px;
+  padding-bottom: 21px;
+}
+
+.span{
+  font-family: "Georgia - Italic";
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: normal;
+}
